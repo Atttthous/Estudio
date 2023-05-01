@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <h1>Hola cristobal como me quedó la tabla</h1>
+    <p>¿Te gustó?.</p>
+    Si<input type="checkbox">
+    NO<input type="checkbox">
+    <table class="table_one">
+        <tr>
+            <th>Subnet name</th>
+            <th>Needed Size</th>
+            <th>Allocated Size</th>
+            <th>Address</th>
+            <th>Mask</th>
+            <th>Dec Mask</th>
+            <th>Assignable Range</th>
+            <th>Brodcast</th>
+        </tr>
+
+        <tr>
+            <td>ES-1 LAN</td>
+            <td>23</td>
+            <td>30</td>
+            <td>172.19.67.0</td>
+            <td>/27</td>
+            <td>255.255.255.224</td>
+            <td>172.19.67.1 - 172.19.67.30</td>
+            <td>172.19.67.31</td>
+        </tr>
+
+        <tr>
+            <td>ES-2 LAN</td>
+            <td>19</td>
+            <td>30</td>
+            <td>172.19.67.32</td>
+            <td>/27</td>
+            <td>255.255.255.224</td>
+            <td>172.19.67.33 - 172.19.67.62 </td>
+            <td>172.19.67.63</td>
+        </tr>
+        <tr>
+            <td>WS-2 LAN</td>
+            <td>11</td>
+            <td>14</td>
+            <td>172.19.67.64</td>
+            <td>/28</td>
+            <td>255.255.255.240</td>
+            <td>172.19.67.65 - 172.19.67.78</td>
+            <td>172.19.67.79</td>
+        </tr>
+        <tr>
+            <td>WS-1 LAN</td>
+            <td>7</td>
+            <td>14</td>
+            <td>172.19.67.80</td>
+            <td>/28</td>
+            <td>255.255.255.240</td>
+            <td>172.19.67.81 - 172.19.67.94</td>
+            <td>172.19.67.95</td>
+        </tr>
+    </table>
+</body>
+
+</html>

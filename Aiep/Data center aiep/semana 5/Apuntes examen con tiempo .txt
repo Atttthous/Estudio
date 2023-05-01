@@ -1,0 +1,19 @@
+Apuntes examen formativo semana 5 datacenter
+
+TOPOLOGÍA  =  Forma geométrica en que están distribuidas la estación estaciones de trabajo.
+
+ATP  = 	Apple Talk transaction Protocol.
+
+DDP  =  Delivery Datagram Protocol.
+
+IP  =	Internet Protocol.
+
+AFP  =	Appletalk File Protocol.
+
+HTTP  =	Hyper Text transfer Protocol.
+
+CORREO ELECTRONICO  =	Aplicación de red mayormente usada para la comunicación entre interés comunes.
+
+HPC  =	High Performance Computing.
+
+SDN  =	Redes definidas por software.

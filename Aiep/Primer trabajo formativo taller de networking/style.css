@@ -1,0 +1,489 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+}
+.content{
+    position: absolute;
+    margin-top: 20px;
+    left: -500px;
+}
+html {
+    background-color: aquamarine;
+    
+}   
+
+.tcpip_h1{
+    text-align: center;
+    color: rgb(0, 255, 149);
+    font-weight: 900;
+    text-shadow: 1px 1px 1px black;
+   
+}
+.tcpip{
+    border: 2px solid red;
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #48e;
+    position: relative;
+    width: 180px;
+    border-radius: 20%;
+    box-shadow: 1px 1px 4px 12px rgba(36,150,179,1);
+    left: 515px;
+    top: 270px;
+}
+.arquitectura{
+        border: 0.8px solid rgb(10, 24, 116);
+        margin: 10px;
+        margin-bottom: 20px;
+        background-color: rgb(127, 245, 9);
+        position: absolute;
+        width: 190px;
+        border-radius: 4%;
+        left: 750px;
+        top: 120px;
+        font-weight: 900;
+        width: 180px;
+        height: 380px;
+        border-radius: 14%;
+        text-align: center;
+        font-size: 8px;
+        text-shadow: 1px 1px 1px rgb(0, 0, 0);
+        padding-top: 16px;
+        color: #48e;
+        overflow: hidden;
+        text-align: center;
+        margin: auto;
+        padding-top: 160px;
+        padding-right: 15px;
+        padding-left: 12px;
+        font-size: 12px;
+        overflow: inherit;
+        pad
+}
+.capa1{
+    z-index: 100;
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(127, 245, 9);
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 970px;
+    top: -5px;
+    font-weight: 900;
+    width: 150px;
+    height: 70px;
+    border-radius: 14%;
+    text-align: center;
+    font-size: 26px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 30px;
+    color: #48e;
+    padding-bottom: 108px;
+    text-shadow: 1px 1px 1px blue;
+}
+.caracteristicaaplicacion{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1160px;
+    top: -5px;
+    font-weight: 400;
+    width: 360px;
+    height: 1px;
+    border-radius: 14%;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 24px;
+    color: #000000;
+    padding: 20px;
+    padding-bottom: 115px;
+}
+.protocolos{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #48e;
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1530px;
+    font-weight: 900;
+    width: 395px;
+    height: 120px;
+    border-radius: 14%;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 30px;
+    color: rgb(41, 46, 53);
+    text-shadow: 1px 1px 1px blue;
+    bottom: 100px;
+    padding: 6px;
+}
+
+.div_tcpip {
+    color: #48e;
+    background-color: #cefa1f;
+    font-weight: 900;
+    width: 220px;
+    height: 120px;
+    border-radius: 10%;
+    position: relative;
+    left: 600px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    font-size: 22px;
+    border: 2px solid red;
+    text-shadow: 1px 1px 1px blue;
+    margin-bottom: 20px;
+}
+.div_transport{
+    color: #48e;
+    background-color: #fac71f;
+    font-weight: 900;
+    width: 145px;
+    height: 80px;
+    border-radius: 12%;
+    position: relative;
+    left: 985px;
+    text-align: center;
+    padding-top: 22px;
+    box-sizing: border-box;
+    font-size: 22px;
+    border: 1px solid rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px blue;
+    margin-bottom: 20px;
+    margin-top: 35px;
+    padding-bottom: 80px;
+    top: 70px;
+}
+.caracteristicatransport{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1160px;
+    top: 185px;
+    font-weight: 400;
+    width: 360px;
+    height: 0px;
+    border-radius: 14%;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 24px;
+    color: #000000;
+    padding: 10px;
+    padding-bottom: 80px;
+    padding-top: 22px;
+}
+.tramasypaquetescomputados{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #48e;
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1530px;
+    font-weight: 900;
+    width: 395px;
+    height: 110px;
+    border-radius: 14%;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 40px;
+    color: rgb(41, 46, 53);
+    text-shadow: 1px 1px 1px blue;
+    bottom: -75px;
+    padding: 9px;
+}
+.div_internet{
+    color: #48e;
+    background-color: #1fe0fa;
+    font-weight: 900;
+    width: 150px;
+    height: 80px;
+    border-radius: 10%;
+    position: absolute;
+    left: 980px;
+    text-align: center;
+    padding-top: 22px;
+    box-sizing: border-box;
+    font-size: 22px;
+    border: 1px solid rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px blue;
+    margin-bottom: 20px;
+    top: 350px;
+}
+.caracteristicasinternet{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1160px;
+    top: 325px;
+    font-weight: 400;
+    width: 360px;
+    height: 0px;
+    border-radius: 14%;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 20px;
+    color: #000000;
+    padding: 10px;
+    padding-bottom: 110px;
+    padding-top: 7px;
+}
+.direccionesmac{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #48e;
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1530px;
+    font-weight: 900;
+    width: 395px;
+    height: 80px;
+    border-radius: 14%;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 30px;
+    color: rgb(41, 46, 53);
+    text-shadow: 1px 1px 1px blue;
+    bottom: -208px;
+    padding: 6px;
+}
+.div_NetworkInterface {
+    color: #48e;
+    z-index: 100;
+    background-color: #cefa1f;
+    font-weight: 900;
+    width: 165px;
+    height: 120px;
+    border-radius: 10%;
+    position: absolute;
+    left: 970px;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    font-size: 22px;
+    border: 1px solid red;
+    text-shadow: 1px 1px 1px blue;
+    margin-bottom: 20px;
+    top: 480px;
+}
+.caracteristicasaccesoalared{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1160px;
+    top: 475px;
+    font-weight: 400;
+    width: 360px;
+    height: 0px;
+    padding: 10px;
+    border-radius: 14%;
+    text-align: center;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 24px;
+    color: #000000;
+    padding: 10px;
+    padding-bottom: 90px;
+    padding-top: 16px;      
+}
+.proto{
+    border: 0.8px solid rgb(0, 0, 0);
+    margin: 10px;
+    margin-bottom: 20px;
+    background-color: #48e;
+    position: absolute;
+    width: 180px;
+    border-radius: 4%;
+    left: 1530px;
+    font-weight: 900;
+    width: 395px;
+    height: 140px;
+    border-radius: 14%;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(248, 242, 242);
+    padding-top: 30px;
+    color: rgb(41, 46, 53);
+    text-shadow: 1px 1px 1px blue;
+    bottom: -379px;
+    padding: 6px;
+}
+.infraestructura{
+    color: #48e;
+    border: 1px solid rgb(255, 0, 51);
+    background-color: rgb(39, 35, 153);
+    position: absolute;
+    left: 300px;
+    text-shadow: 1px 1px 1px rgb(18, 29, 2);
+    padding: 13px;
+    box-shadow: 10px 1px 142px 12px rgba(36,150,179,1);
+    font-size: 13px;
+    bottom: 8px;
+}
+.routers{
+    position: absolute;
+    color: #000000;
+    left: 200px;
+    bottom: 68px;
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.uno{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+    top: -10px;
+    left: -50px;
+}
+.ordenadores{
+    position: absolute;
+    color: #000000;
+    left: 200px;
+    bottom: 68px;
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.dos{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+    top: -10px;
+}
+.switch{
+    position: absolute;
+    color: #000000;
+    left: 200px;
+    bottom: 68px;
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.tres{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+    top: -10px;
+    left: 150px;
+}
+.servidores{
+    position: absolute;
+    color: #000000;
+    left: 300px;
+    bottom: 68px;
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.cuatro{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+    top: -10px;
+    left: 150px;
+}
+.cablesdered{
+    position: absolute;
+    color: #000000;
+    left: 300px;
+    bottom: 68px;
+    font-size: 14px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.cinco{
+    width: 100px;
+    height: 100px;
+    padding: 2px;
+    margin: 2px;
+    position: absolute;
+    top: -10px;
+    left: 250px;
+}
+.contentinfraestructura{
+    position: absolute;
+    left: 850px;
+    bottom: -600px;
+}
+img{
+    box-shadow: 1px 1px 200px blue;
+}
+
+.flecha2{
+    bottom: 120px;
+    width: 20px;
+    left: 940px;
+    position: absolute;
+
+}
+.flecha3{
+    bottom: -75px;
+    width: 20px;
+    left: 720px;
+    position: absolute;
+}
+.flecha4{
+    bottom: -5px;
+    width: 20px;
+    left: 940px;
+    position: absolute;
+}
+.flecha5{
+    bottom: -145px;
+    width: 20px;
+    left: 940px;
+    position: absolute;
+}
+.flecha6{
+    bottom: -255px;
+    width: 20px;
+    left: 940px;
+    position: absolute;
+}
+.omar{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+}

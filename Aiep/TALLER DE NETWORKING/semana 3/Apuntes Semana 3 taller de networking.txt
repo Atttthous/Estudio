@@ -1,0 +1,18 @@
+#Apuntes semana 3 taller de Networking
+
+La parte del Sistema Operativo que
+interactúa directamente con el hardware de la PC se conoce como kernel
+
+La parte que interactúa con las aplicaciones y el usuario se conoce como shell. 
+
+Las definiciones de estas partes son:
+Shell: la interfaz de usuario que permite a los usuarios solicitar tareas específicas
+del equipo. Estas solicitudes se pueden realizar a través de las interfaces CLI o
+GUI.
+Kernel: establece la comunicación entre el hardware y el software de una
+computadora y administra el uso de los recursos de hardware para cumplir los
+requisitos del software.
+
+
+
+
